@@ -14,7 +14,7 @@ public class MainActivity {
 //        driver.findElement(By.id("kw")).sendKeys("selenium");
         //使用js注入来进行输入框的input
         JavascriptExecutor js = (JavascriptExecutor)driver;
-        js.executeScript("document.getElementById('kw').value='selenium';");
+        js.executeScript("document.getElementById('kw').value=selenium");
         Thread.sleep(5000);
         driver.findElement(By.id("su")).click();
         Thread.sleep(3000);
